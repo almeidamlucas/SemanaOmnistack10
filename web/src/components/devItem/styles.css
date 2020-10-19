@@ -1,0 +1,74 @@
+li.dev-item {
+    background-color: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 168px;
+    transition: background-color 0.3s, box-shadow 1s;
+}
+
+li.dev-item:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+li.dev-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.dev-item header img {
+    width: 50px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+li.dev-item header .user-info {
+    margin-left: 10px;
+    width: 80%
+}
+
+li.dev-item header .remove-user i {
+    color: grey;
+    transition: color 0.3s;
+}
+
+li.dev-item header .remove-user i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.user-info strong {
+    display: block;
+    font: 16px;
+    color: #666;
+}
+
+.user-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+li.dev-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+li.dev-item a {
+    font-size: 14px;
+    color: #8e4dff;
+    text-decoration: none;
+}
+
+li.dev-item span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+li.dev-item a:hover {
+    color: #5a2ea6;
+}
